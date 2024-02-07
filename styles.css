@@ -1,18 +1,36 @@
+#watermark{
+    width: 100px;
+    opacity: .3;
+}
+
+.underline {
+    border-bottom: 4px solid rgb(255, 252, 252);
+}
+
 body {
     color: white;
+    margin: 0px;
 
 /*
     background-image: url("./img/hubspacetutu.jpg");
 */
-
+/*
     background-image: url("img/space.gif");
-
+*/
     background-size: cover;
 
 
 
     font-family: 'Orbitron', sans-serif;
     text-align: center;
+}
+
+#hero{
+    background-image: url("img/space.gif");
+    background-size: cover;
+
+    padding: 20px 0px 50px 0px;
+
 }
 
 .app-btn {
@@ -28,16 +46,18 @@ body {
     text-align: center;
     background: rgb(238, 242, 245);
     border: none;
-
-}
-#watermark{
-    width: 100px;
-    opacity: .3;
 }
 
-.underline {
-    border-bottom: 4px solid rgb(255, 252, 252);
+.tac{
+ 
+    border: 2px solid white;
+    -webkit-text-fill-color: rgb(73, 128, 230);
+
+    text-align:center;
+    padding-top: 20px;
+    
 }
+
 
 /* DOWNLOADING FONTS
 @font-face {
